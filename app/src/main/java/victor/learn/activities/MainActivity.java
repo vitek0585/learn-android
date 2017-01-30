@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(requestCode ==SERVICE_PENDING_INTENT_RESULT){
-            tv.setText("SERVICE finish" + new Date(System.currentTimeMillis()).getTime());
+            tv.setText("SERVICE" + new Date(System.currentTimeMillis()).getTime());
         }
     }
 
